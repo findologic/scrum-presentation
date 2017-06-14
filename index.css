@@ -1,0 +1,33 @@
+.reveal h2 {
+     text-shadow: 2px 2px rgba(150, 150, 150, 1);
+}
+
+.reveal section img {
+    border: none;
+    padding: 20px;
+}
+
+.reveal h4 {
+    text-transform: none;
+    color: #333;
+    font-weight: normal;
+}
+
+.reveal ul li, .reveal ol li {
+    color: #333;
+    padding: 10px;
+}
+
+.reveal blockquote {
+    background-color: #FFF;
+}
+
+section[data-background] > h1 {
+    -webkit-text-stroke: 2px #333;
+    text-shadow: 6px 6px rgba(150, 150, 150, 1);
+}
+
+.reveal a img {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+}

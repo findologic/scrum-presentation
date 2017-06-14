@@ -1,0 +1,461 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>How to make your team more productive</title>
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,300" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="node_modules/reveal.js/lib/css/zenburn.css">
+        <link rel="stylesheet" href="theme/findologic.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides db">
+                <section data-background="">
+                    <h2>
+                        How to make your team more productive
+                    </h2>
+                    <h4>
+                        Learnings from 44 Sprints
+                    </h4>
+                </section>
+
+                <section data-background="">
+                    <img src="img/me.jpg" style="width: 150px;" alt="Me" />
+                    <h3>Daniel Blaichinger</h3>
+                    <ul>
+                        <li>Since 2014 @ FINDOLOGIC</li>
+                        <li>Introduced Scrum in 2015</li> 
+                    </ul>
+                </section>
+
+                <section data-background="">
+                    <img src="img/agile.png" alt="Agile"/>
+                </section>
+
+                <section>
+                    <section data-background="">
+                        <h2>Scrum</h2>
+                    </section>
+
+                    <section>
+                        <img src="img/scrum_overview.png" alt="overview"/>
+                    </section>
+
+                    <section>
+                        <h3>Why did we make the change to Scrum?</h3>
+                        <ul>
+                            <li>Long term planning</li>
+                            <li>Vacation & illness</li>
+                            <li>Missing feedback</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Requirements for Scrum</h3>
+                        <ul>
+                            <li>Team size ~4-9</li>
+                            <li>Self-organised team</li>
+                            <li>Individual responsibility</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>PivotalTracker</h3>
+                        <img src="img/pivotal_board.png" alt="pivotal" />
+                    </section> 
+
+                    <section>
+                        <h3>Youtrack</h3>
+                        <a href="https://findologic.myjetbrains.com/youtrack/agiles/84-14/85-32" target="_blank">
+                            <img src="img/youtrack.png" alt="Youtrack" />
+                        </a>
+                    </section> 
+
+                    <section>
+                        <img src="img/board.jpg" alt="Board" style="width: 500px;"/>
+                    </section>
+
+                    <section>
+                        <img src="img/icons/icebox.png" alt="icebox" style="width: 200px;" />
+                        <img src="img/icons/backlog.png" alt="backlog" style="width: 200px;" />
+                        <img src="img/icons/dev.png" alt="dev" style="width: 200px;" />
+                        <img src="img/icons/testing.png" alt="testing" style="width: 200px;" />
+                        <a href="https://docs.google.com/document/d/1jBZpTOTUgVf6O5x2kjSO7qvOQ0KQS2TtPZPpsFu6VIg/edit" target="_blank">
+                            <img src="img/icons/prereview.png" alt="prereview" style="width: 200px;" />
+                        </a>
+                        <a href="https://docs.google.com/document/d/1jBZpTOTUgVf6O5x2kjSO7qvOQ0KQS2TtPZPpsFu6VIg/edit" target="_blank">
+                            <img src="img/icons/review.png" alt="review" style="width: 200px;" />
+                        </a>
+                        <a href="https://docs.google.com/document/d/1bXAAyrvxQPn9441qIz3ScZJ0hib83h1iI_jssrQ_pHE/edit" target="_blank">
+                            <img src="img/icons/deploy.png" alt="deploy" style="width: 200px;" />
+                        </a>
+                        <img src="img/icons/prod.png" alt="production" style="width: 200px;" />
+                    </section>
+
+                </section>
+
+                <section>
+                    <section data-background="">
+                        <h2>Essential parts of Scrum</h2>
+                        <h4>(for us)</h4>
+                    </section>
+
+                    <section>
+                        <h3>Roles</h3>
+                        <ul>
+                            <li>Product Owner + CTO</li>
+                            <li>Lead Search Developer</li>
+                            <li>Lead Infrastructure Developer</li>
+                            <li>Lead Backend Developer + Scrum Master</li>
+                            <li>Developers</li>
+                            <li>Everyone is coding!</li>
+                        </ul>
+                    </section> 
+
+                    <section>
+                        <h3>Circle of Sprint</h3>
+                        <img src="img/sprint_circle.png" alt="Circle of Sprint" style="width: 400px;"/>
+                    </section> 
+
+                    <section>
+                        <h3>Po-LxD Meeting</h3>
+                        <ul>
+                            <li>One week before Planning-Poker</li>
+                            <li>Stories for technical planning</li>
+                            <li>Each LxD defines the stories for his component</li>
+                        </ul>
+                    </section> 
+
+                    <section>
+                        <h3>How to write a user story</h3>
+                        <ul>
+                            <li><a href="https://docs.google.com/document/d/1n834xdUKoRB9ToFctAO5Flq4IJ_GGa6HHCinyTqu0Pg/edit" target="_blank">Definition of Go</a></li>
+                            <li>Extend or modify the definition documents as needed -> Discussed in Retrospective</li>
+                            <li><b>Be as precise as possible!</b> -> "Import 5 shops"</li>
+                            <li>Consider error cases</li>
+                            <li>Think about breaking tests, especially for bigger changes</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>How to write a infrastructure story</h3>
+                        <ul>
+                            <li>If the scope of the story is clear and defined -> Normal story for estimation</li>
+                            <li>If the task is not clear or unexpected impediments could occur -> Time-Box Story</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Planning-Poker</h3>
+                        <img src="img/planning_poker.jpg" alt="Planning Poker"/>
+                    </section>
+
+                    <section>
+                        <h3>Planning-Poker</h3>
+                        <img src="img/story_example.jpg" alt="Story"/>
+                    </section> 
+
+                    <section>
+                        <h3>Planning-Poker</h3>
+                        <br/>
+                        <h4><b>Solves:</b></h4>
+                        <ul>
+                            <li>Long term planning</li>
+                            <li>Vacation & illness</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Sprint summary</h3>
+                        <img src="img/sprint_summary.jpg" alt="Sprint summary" />
+                    </section>
+
+                    <section>
+                        <h3>Stand-up Meeting</h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/GgoolZ-Mo48" allowfullscreen></iframe>
+                    </section>
+
+                    <section>
+                        <h3>Stand-up Meeting</h3>
+                        <br/>
+                        <ul>
+                            <li><a href="https://docs.google.com/document/d/1LxH3tFy7gpmeZpPbvRHEt0ZuQeZbrnq-rsCcsAXQVHE/edit" target="_blank">Document</a></li>
+                            <li>First part with
+                                <ul>
+                                    <li>Support</li>
+                                    <li>Project management</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Retrospective</h3>
+                        <br/>
+                        <ul>
+                            <li>What went well during the sprint?</li>
+                            <li>What went wrong during the sprint?</li>
+                            <li><b>What could we do differently to improve?</b></li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Sprint presentation</h3>
+                        <br/>
+                        <ul>
+                            <li>Present the stories you finished your own</li>
+                            <li>Try to be as non-technical as possible</li>
+                            <li><b>Use screenshots, videos or the real UI!</b></li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Sprint presentation</h3>
+                        <img src="img/funny.gif" style="height: 400px;" alt="gif" />
+                    </section>
+
+                    <section data-background="img/bg/labour_day.jpg">
+                    </section> 
+                </section>    
+
+                <section>
+                    <section data-background="img/bg/automation.jpg">
+                        <h2>Automation</h2>
+                    </section>
+
+                    <section>
+                        <h3>Build monitor</h3>
+                        <a href="http://build.findologic.com:8081/view/FINDOLOGIC/" target="_blank">
+                            <img src="img/jenkins.jpg" alt="Jenkins" />
+                        </a>
+                    </section>
+
+                    <section>
+                        <h3>Infrastructure</h3>
+                        <img src="img/ansible.png" alt="Ansible" style="width: 500px;" />
+                    </section>
+
+                    <section>
+                        <h3>Ansible</h3>
+                        <pre><code data-trim>
+# playbook.yml
+---
+- hosts: all
+  tasks:
+    - name: 1. install Apache
+      apt: name=apache2 state=present
+
+    - name: 2. install PHP module for Apache
+      apt: name=libapache2-mod-php5 state=present
+
+    - name: 3. start Apache
+      service: name=apache2 state=running enabled=yes
+
+    - name: 4. install Hello World PHP script
+      copy: src=index.php dest=/var/www/index.php mode=0664
+                        </code></pre>
+                    </section>
+
+                    <section>
+                        <h3>Ansible</h3>
+                        <pre><code data-trim>
+ansible-playbook playbook.yml
+                        </code></pre>
+                    </section>
+
+                    <section>
+                        <h3>Deployment</h3>
+                        <img src="img/capistrano.png" alt="Capistrano" />
+                        <br/>
+
+                        <p>Use a tool you prefer!</p>
+                    </section>
+                </section> 
+
+                <section>
+                    <section data-background="">
+                        <h2>How to get info from another department to the development?</h2>
+                    </section>
+
+                    <section>
+                        <h3>Homie</h3>
+                        <img src="img/homie.jpg" alt="Homie" style="float: right; width: 25%" />
+                        <ul style="width: 60%">
+                            <li>"Gestörte"</li>
+                            <li>Helping the support and project management</li>
+                            <li>Debugging code to investigate potential bugs</li>
+                            <li>The time spent is not calculated within a sprint</li>
+                        </ul>
+                    </section>   
+
+                    <section>
+                        <h3>Support Ticket-Review</h3>
+                        <ol>
+                            <li>Customer reports problem</li>
+                            <li>Can't be solved right away</li>
+                            <li>Ticket will be created</li>
+                            <li>Twice a week the tickets will be investigated</li>
+                            <li>On bug suspicion, a homie debugs the code</li>
+                        </ol>
+                    </section> 
+
+                    <section>
+                        <h3>Support Ticket-Review</h3>
+                        <ul>
+                            <li>What steps will reproduce the problem?</li>
+                            <li>What is the expected result?</li>
+                            <li>What happens instead?</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-background="">
+                        <h2>What we learned from</h2>
+                        <h2>44 retrospectives</h2>
+                    </section>
+
+                    <section>
+                        <h3>What we learned</h3>
+                        <ul>
+                            <li>Avoid bottlenecks on each lane -> Review</li>
+                            <li>Keep your automation running <pre><code data-trim>"Cannot allocate memory"</pre></code></li>
+                            <li>Merge-Conflict during deployments -> Automate deployments</li>
+                            <li>Do not forget to click test with another colleague</li>
+                            <li>Write unit tests for 0, 1, 2+ cases -> Data Provider</li>
+                            <li>Code refactoring preferable within smaller stories</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>What we learned</h3>
+                        <ul>
+                            <li>New colleagues have a fresh view on the process and setup
+                                <ul>
+                                    <li>Writing document for introduction</li>
+                                    <li>Updating setup in Readme.md</li>
+                                    <li>Explaining infrastructure with a diagram</li>
+                                </ul>
+                            </li>
+                            <li>Make internal trainings for non-technical colleagues to avoid disturbance during a sprint</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-background="">
+                        <h2>Conclusion</h2>
+                    </section>
+
+                    <section>
+                        <ul>
+                            <li>If suitable, use an agile software method and adapt it to your needs!</li>
+                            <li>Do not underestimate the retrospective, it helps to be more efficent over time.</li>
+                            <li>If possible, automate your regularly tasks to reduce mistakes and save time.</li>
+                            <li>Be transparent in what your are doing and try to coordinate goals with other departments.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <ul>                            
+                            <li><b>Everyone has to respect the basic rules of Scrum</b>
+                                <ul>
+                                    <li>The scope of an estimated story has to be kept, otherwise it needs a re-estimation</li>
+                                    <li>Additional work during a sprint is not acceptable, because the defined sprint goal may not be reached
+                                    -> <a href="https://docs.google.com/document/d/1H6RmEIbubFF78ynWJd5xHnXNPow4gEeH2I1fYAm30MQ/edit" target="_blank">Definition of Priority</a></li>
+                                    <li>Avoid disturbance -> Delegate to homie</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <img src="img/yoda.jpg" alt="yoda">
+                    </section>
+
+                    <section>
+                        <blockquote style="width:30%; float:left; font-size:20px;">
+                            <p>
+                            If the organization allows interruptions to the team’s work during the Sprint, then the team will not meet its commitments and this will diminish trust between the team and its stakeholders.</p>
+                            <p>That lack of trust will lead to onerous control mechanisms that reduce the team’s ability to self-organize which, in turn, will prevent the team from becoming a high-performance team.</p>
+                        </blockquote>
+                        <img src="img/scrum.png" style="float:right;">
+                    </section>
+                </section>
+
+                <section>
+                    <h3>Questions?</h3>
+                    <img src="img/questions.jpg" alt="questions" style="width: 300px;">
+                </section>
+
+                <section>
+                    <h2>Thank you!</h2>
+
+                    <img src="img/burger.gif" style="width: 200px;" alt="burger">
+                    <p>
+                        Almost there...
+                    </p>
+                </section>
+
+                <section>            
+                    
+                    <p>
+                        <img src="img/five.png" alt="html5">
+                        <br>
+                        YEARS SBG WEB DEV
+                    </p>
+                    <p>
+                        <h3>Thank you Brigitte!</h3>
+                        <img src="img/brigitte.jpg" alt="brigitte">
+                    </p>
+                    
+                </section>
+
+            </div>
+        </div>
+
+        <img class="findologo" src="img/findologic.svg" alt="Logo">
+
+        <script src="node_modules/reveal.js/lib/js/head.min.js"></script>
+        <script src="node_modules/reveal.js/js/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+                history: true,
+                transition: 'convex',
+                backgroundTransition: 'fade',
+                showNotes: false,
+                dependencies: [
+                    {
+                        src: './node_modules/reveal.js/plugin/highlight/highlight.js',
+                        async: true,
+                        callback: function () {
+                            hljs.initHighlightingOnLoad();
+                        }
+                    },
+                    {
+                        src: './node_modules/reveal.js/plugin/zoom-js/zoom.js',
+                        async: true
+                    },
+                    {
+                        src: './node_modules/reveal.js/plugin/notes/notes.js',
+                        async: true
+                    }
+                ]
+            });
+
+            Reveal.addEventListener( 'slidechanged', function( event ) {
+                var slide = event.currentSlide;
+                var logo = document.getElementsByClassName('findologo');
+
+                if (slide.dataset.background != undefined) {
+                    logo[0].style.visibility = 'hidden';
+                } else {
+                    logo[0].style.visibility = 'visible';
+                }
+            });
+        </script>
+    </body>
+</html>
