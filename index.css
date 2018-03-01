@@ -13,9 +13,24 @@
     font-weight: normal;
 }
 
+.reveal ul {
+    margin-left: 0;
+}
+
 .reveal ul li, .reveal ol li {
     color: #333;
     padding: 10px;
+}
+
+.reveal li {
+    list-style: none;
+}
+
+.reveal ul.disc-list {
+    margin-left: 1em;
+}
+.reveal ul.disc-list li {
+    list-style: disc;
 }
 
 .reveal blockquote {
